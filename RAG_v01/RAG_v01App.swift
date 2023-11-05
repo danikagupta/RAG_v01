@@ -11,7 +11,7 @@ import SwiftUI
 struct RAG_v01App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MultiTabView()
         }
     }
 }

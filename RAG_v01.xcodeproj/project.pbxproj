@@ -11,6 +11,14 @@
 		AA7478822AF75B9A00B2D252 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7478812AF75B9A00B2D252 /* ContentView.swift */; };
 		AA7478842AF75B9B00B2D252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7478832AF75B9B00B2D252 /* Assets.xcassets */; };
 		AA7478872AF75B9B00B2D252 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7478862AF75B9B00B2D252 /* Preview Assets.xcassets */; };
+		AA74788E2AF75BE700B2D252 /* MultiTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74788D2AF75BE700B2D252 /* MultiTabView.swift */; };
+		AA7478902AF75C1A00B2D252 /* ChatGPTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74788F2AF75C1A00B2D252 /* ChatGPTView.swift */; };
+		AA7478922AF75C4B00B2D252 /* Secret.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA7478912AF75C4B00B2D252 /* Secret.plist */; };
+		AA7478942AF75CEA00B2D252 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7478932AF75CEA00B2D252 /* ViewModel.swift */; };
+		AA7478962AF75D0E00B2D252 /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7478952AF75D0E00B2D252 /* MessageRowView.swift */; };
+		AA7478982AF75D3400B2D252 /* DotLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7478972AF75D3400B2D252 /* DotLoadingView.swift */; };
+		AA74789A2AF75D5200B2D252 /* LLMClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7478992AF75D5200B2D252 /* LLMClient.swift */; };
+		AA74789C2AF75D6D00B2D252 /* ChatGPTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74789B2AF75D6D00B2D252 /* ChatGPTAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		AA7478812AF75B9A00B2D252 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA7478832AF75B9B00B2D252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA7478862AF75B9B00B2D252 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA74788D2AF75BE700B2D252 /* MultiTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTabView.swift; sourceTree = "<group>"; };
+		AA74788F2AF75C1A00B2D252 /* ChatGPTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTView.swift; sourceTree = "<group>"; };
+		AA7478912AF75C4B00B2D252 /* Secret.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secret.plist; sourceTree = "<group>"; };
+		AA7478932AF75CEA00B2D252 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		AA7478952AF75D0E00B2D252 /* MessageRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRowView.swift; sourceTree = "<group>"; };
+		AA7478972AF75D3400B2D252 /* DotLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotLoadingView.swift; sourceTree = "<group>"; };
+		AA7478992AF75D5200B2D252 /* LLMClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMClient.swift; sourceTree = "<group>"; };
+		AA74789B2AF75D6D00B2D252 /* ChatGPTAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +69,14 @@
 			children = (
 				AA74787F2AF75B9A00B2D252 /* RAG_v01App.swift */,
 				AA7478812AF75B9A00B2D252 /* ContentView.swift */,
+				AA7478932AF75CEA00B2D252 /* ViewModel.swift */,
+				AA7478952AF75D0E00B2D252 /* MessageRowView.swift */,
+				AA7478972AF75D3400B2D252 /* DotLoadingView.swift */,
+				AA7478992AF75D5200B2D252 /* LLMClient.swift */,
+				AA74789B2AF75D6D00B2D252 /* ChatGPTAPI.swift */,
+				AA74788D2AF75BE700B2D252 /* MultiTabView.swift */,
+				AA74788F2AF75C1A00B2D252 /* ChatGPTView.swift */,
+				AA7478912AF75C4B00B2D252 /* Secret.plist */,
 				AA7478832AF75B9B00B2D252 /* Assets.xcassets */,
 				AA7478852AF75B9B00B2D252 /* Preview Content */,
 			);
@@ -125,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA7478922AF75C4B00B2D252 /* Secret.plist in Resources */,
 				AA7478872AF75B9B00B2D252 /* Preview Assets.xcassets in Resources */,
 				AA7478842AF75B9B00B2D252 /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +162,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA7478942AF75CEA00B2D252 /* ViewModel.swift in Sources */,
+				AA7478982AF75D3400B2D252 /* DotLoadingView.swift in Sources */,
+				AA74788E2AF75BE700B2D252 /* MultiTabView.swift in Sources */,
+				AA74789C2AF75D6D00B2D252 /* ChatGPTAPI.swift in Sources */,
 				AA7478822AF75B9A00B2D252 /* ContentView.swift in Sources */,
+				AA7478962AF75D0E00B2D252 /* MessageRowView.swift in Sources */,
+				AA7478902AF75C1A00B2D252 /* ChatGPTView.swift in Sources */,
+				AA74789A2AF75D5200B2D252 /* LLMClient.swift in Sources */,
 				AA7478802AF75B9A00B2D252 /* RAG_v01App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
